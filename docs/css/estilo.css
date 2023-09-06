@@ -1,0 +1,43 @@
+body {
+    font-family: cursive;
+    background-color: #c6f3f0 ;
+    color: rgb(0, 2, 129)
+}
+
+.nome{
+    text-align: center  ;
+    font-size: xx-large;
+}
+
+.headernome{
+    margin: 20% 5% 15% 10%;
+    
+}
+
+section { 
+	background: #cadefc;
+    margin: 0% 15% 5% 15%;
+}
+
+.listmenu{ 
+    list-style: none;
+    padding: 1%;
+    display: inline;
+    border-style: solid;
+    border-color: black;
+    margin: 4%;
+}
+
+
+.linkmenu { 
+    text-decoration: none;
+    color: rgb(0, 2, 129);
+}
+
+.listmenu:hover{
+    background-color: rgb(87, 88, 139);
+    border: none;
+}
+#formacao{
+    background-color: #cadefc;
+}
