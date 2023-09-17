@@ -1,47 +1,84 @@
 body {
-    font-family: cursive;
-    background-color: #c6f3f0 ;
-    color: rgb(0, 2, 129)
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffffff ;
+    color: rgb(0, 0, 0)
 }
+
+.Menu{ 
+    text-align: center;
+    color: white;
+    padding: 20%;
+}
+
+.headermenu{
+    background-color: #010813;
+}
+
+.nome{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
 
 .nome{
     text-align: center  ;
     font-size: xx-large;
 }
 
-.headernome{
-    margin: 20% 5% 15% 10%;
-    
-}
 
 section { 
 	background: #cadefc;
     margin: 0% 15% 5% 15%;
 }
 
+.secao{
+    padding: 60px;
+    margin: 20px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+#conteudo{
+    padding: 20px;
+    flex-direction: row;
+}
+
 .listmenu{ 
-    list-style: none;
     padding: 1%;
-    display: inline;
-    border-style: solid;
-    border-color: black;
     margin: 4%;
 }
 
 
 .linkmenu { 
     text-decoration: none;
-    color: rgb(0, 2, 129);
+    color: rgb(255, 255, 255);
 }
 
 .listmenu:hover{
-    background-color: rgb(87, 88, 139);
+
     border: none;
 }
+
 #formacao{
     background-color: #cadefc;
 }
-.comeco{
-    text-decoration: none;
-    margin: 15%;
+
+#experiencia{
+    background-color: #cadefc;
+}
+
+#habilidades{
+    background-color: #cadefc;
+}
+
+#hobbies{
+    background-color: #cadefc;
+}
+
+#contato{
+    background-color: #cadefc;
 }
